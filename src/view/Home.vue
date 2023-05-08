@@ -4,14 +4,20 @@
       <Avatar mr-3 />
       <div text-5 font-900>oral's earth online</div>
     </header>
-    <main grid="~ rows">
-      <Branch
-        v-for="b in brachMenu"
-        :key="b.text"
-        :img="b.img"
-        :text="b.text"
-        :to="b.to"
-      />
+    <main flex justify-center>
+      <div m-y-0 m-x-a gap-4 max-w-screen-md flex="~ row" w-100 justify-between>
+        <Branch
+          max-w-100
+          flex-basis-0
+          flex-grow-1
+          flex-shrink-1
+          v-for="b in brachMenu"
+          :key="b.text"
+          :img="b.img"
+          :text="b.text"
+          :to="b.to"
+        />
+      </div>
     </main>
     <footer></footer>
   </div>
