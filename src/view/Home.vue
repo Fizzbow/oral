@@ -1,11 +1,12 @@
 <template>
-  <div id="oral_home" p-5>
-    <header flex-row mb-3 flex flex-items-end>
+  <div id="oral_home" h-screen w-screen flex="~ col" p-5>
+    <header flex-row mb-10 flex flex-items-end>
       <Avatar mr-3 />
       <div text-5 font-900>oral's earth online</div>
     </header>
-    <main flex justify-center>
-      <div m-y-0 m-x-a gap-4 max-w-screen-md flex="~ row" w-100 justify-between>
+
+    <main flex-grow-1 flex justify-center>
+      <div m-y-0 m-x-a gap-7 max-w-screen-md flex="~ row" w-100 justify-between>
         <Branch
           max-w-100
           flex-basis-0
@@ -19,12 +20,14 @@
         />
       </div>
     </main>
-    <footer></footer>
+
+    <FooterSite />
   </div>
 </template>
 <script lang="ts" setup>
 import Avatar from "../components/Header/Avatar.vue";
 import Branch from "../components/Branch.vue";
+import FooterSite from "@/components/FooterSite.vue";
 import { brachMenu } from "../libs/branch-menu";
 </script>
 <style lang="scss" scoped></style>
