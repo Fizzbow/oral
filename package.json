@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/node": "^20.1.0",
     "pug": "^3.0.2",
     "sass": "^1.62.1",
     "vue": "^3.2.47",
