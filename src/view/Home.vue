@@ -30,4 +30,15 @@ import Branch from "../components/Branch.vue";
 import FooterSite from "@/components/FooterSite.vue";
 import { brachMenu } from "../libs/branch-menu";
 </script>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+#oral_home {
+  background-image: linear-gradient(
+    to left,
+    #142a41,
+    #0e3a51,
+    #064a5d,
+    #085b67,
+    #1b6c6e
+  );
+}
+</style>

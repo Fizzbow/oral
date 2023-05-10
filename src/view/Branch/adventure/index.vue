@@ -1,4 +1,4 @@
 <template>
-  <div>adventure</div>
+  <div w-screen h-screen></div>
 </template>
 <script lang="ts" setup></script>
