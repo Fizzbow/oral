@@ -57,6 +57,7 @@ function mouseLeave() {
 .branch:hover {
   border: 18px solid #2d60fd;
   box-shadow: 0 0 21px 3px rgba($color: #000, $alpha: 0.5) inset;
+  transition: box-shadow 0.6s ease-in-out 0.4s;
 }
 
 @keyframes reveal {

@@ -11,7 +11,7 @@ export default defineConfig({
   ],
   theme: {
     colors: {
-      netural: { 1: "#fff", 2: "#29666C" },
+      netural: { 1: "#fff", 2: "#29666C", 3: "#3c3c42" },
       home: { primary: "#02F7BC", second: "#2D60FD" },
     },
   },

@@ -40,5 +40,19 @@ import { brachMenu } from "../libs/branch-menu";
     #085b67,
     #1b6c6e
   );
+
+  animation: backAnimation 5s ease infinite;
+  height: 100vh;
+}
+@keyframes backAnimation {
+  0% {
+    background-position: 0% 10%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 </style>

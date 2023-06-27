@@ -6,4 +6,6 @@ import router from "./router";
 import "virtual:uno.css";
 import "uno.css";
 
-createApp(App).use(router).mount("#app");
+import { TroisJSVuePlugin } from "troisjs";
+
+createApp(App).use(router).use(TroisJSVuePlugin).mount("#app");
