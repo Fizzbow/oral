@@ -10,9 +10,15 @@
   },
   "dependencies": {
     "@types/node": "^20.1.0",
+    "@types/three": "^0.152.0",
+    "@vueuse/core": "^10.1.2",
+    "canvas-sketch-util": "^1.10.0",
+    "p5": "^1.6.0",
     "pug": "^3.0.2",
     "sass": "^1.62.1",
     "scroll-out": "^2.2.12",
+    "three": "0.134",
+    "troisjs": "^0.3.4",
     "vue": "^3.2.47",
     "vue-router": "4"
   },
